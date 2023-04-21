@@ -1,0 +1,7 @@
+<ul>
+    {{cart.items[0].food.imageurl}}
+    <li *ngFor="let item of Cart">{{item}}</li>
+    <img [src]="cart.items[0].food.imageurl">
+
+    <p>cart page</p>
+</ul>
